@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RxJS - Example</title>
+</head>
+<body>
+    <!-- Just the core RxJS -->
+    <!-- <script src="./node_modules/rx/dist/rx.js"></script> -->
+
+    <!-- Or all of RxJS minus testing -->
+    <!-- <script src="./node_modules/rx/dist/rx.all.js"></script> -->
+
+    <!-- Or keeping it lite -->
+    <script src="./node_modules/rx/dist/rx.lite.js"></script>
+
+    <!-- Examples -->
+    <script src="examples.js"></script>
+    
+    <div>
+        <input type="button" value="Promises Request" onclick="promisesRequest();" />
+        <input type="button" value="Async/Await Request" onclick="asyncAwaitRequest();" />
+        <input type="button" value="RxJS Request" onclick="rxJsRequest();" />
+    </div>
+    
+    <div id='loading' style='display: none; margin-top: 8px;'>Loading...</div>
+</body>
+</html>
